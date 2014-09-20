@@ -29,9 +29,10 @@ var app = {
     initialize: function() {
         if(cssDebug){
           view = new ViewController(app);
-          view.init();
+          view.displayScore(20,20,"AA","AA");
         }else{
           this.bindEvents();
+
         }
     },
     // Bind Event Listeners
@@ -39,6 +40,7 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
+        $('<img src="./img/bg.jpg"/>');
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
@@ -134,8 +136,19 @@ var app = {
     },
     onmessage: function(message) {
       console.log("chopsticking::onmessage");
+
       app.onscore(message);
+      // setTimeout(function(){
+      //   app.onscore(message);
+      // },1000);
       // console.log("from serial: "+message);
+
+    },
+    resetGame: function(){
+      console.log("chopsticking::resetGame");
+      app.onwrite('r');
+      // view = new ViewController(app);
+      view.init();
 
     },
     generateFailureFunction: function(message) {

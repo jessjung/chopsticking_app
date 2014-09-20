@@ -28,6 +28,10 @@
         <title>ChopsticKing</title>
     </head>
     <body>
+        <div id="preloaded" style="visibility: hidden">
+          <img src="img/bg.jpg" width="1" height="1">
+          <img src="img/bg-score.jpg" width="1" height="1">
+        </div>
         <!-- <div class="app"> -->
           <div id="scan-page">
             <div class="app-logo"></div>
@@ -38,17 +42,53 @@
           <div id="init-page">
             <div class="app-logo"></div>
             <div class="app-message">
-              <button id="game-start"><h2>PLAY NOW!</h2></button>
+              <div id="game-start" class="play-button"><h2>PLAY NOW!</h2></div>
             </div>
           </div>
           <div id="ready-page">
-            <h1><span id="ready-head"></span></h1>
+            <div class ="top-div">
+              <h1><span id="ready-head">Ready</span></h1>
+            </div>
+            <div class ="middle-bar"></div>
+            <div class ="bottom-div">
+              <h1><span id="ready-body"></span></h1>
+            </div>
           </div>
           <div id="countdown-page">
-            <h1><span id="countdown-head"></span></h1>
+            <div class= "row">
+              <div class ="col-1"></div>
+              <div class ="col-2">
+                <h1><span id="countdown-head">Hurry up!</span></h1>
+                <h1><span id="countdown-body" class="digital-clock"></span></h1>
+              </div>
+              <div class ="col-3"></div>
+            </div>
           </div>
           <div id="score-page">
-            <h1><span id="score-head">your score is 100!</span></h1>
+            <!-- <div class= "row"> -->
+            <div class= "col-big" id="player1">
+              <div class= "col-head"><h1><span id="score-head">PLAYER 1</span></h1></div>
+              <div class ="middle-bar"></div>
+
+              <div class ="col-sm">
+                <h1><span id="p1p" class="score"></span></h1>
+              </div>
+              <div class ="col-sm">
+                <h1><span id="p1s" class="score"></span></h1>
+              </div>
+            </div>
+            <div class= "col-big" id="player2">
+              <div class= "col-head"><h1><span id="score-head">PLAYER 2</span></h1></div>
+              <div class ="middle-bar"></div>
+
+              <div class ="col-sm">
+                <h1><span id="p2p" class="score"></span></h1>
+              </div>
+              <div class ="col-sm">
+                <h1><span id="p2s" class="score"></span></h1>
+              </div>
+            </div>
+          <!-- </div> -->
           </div>
         <!-- </div> -->
         <script type="text/javascript" src="cordova.js"></script>

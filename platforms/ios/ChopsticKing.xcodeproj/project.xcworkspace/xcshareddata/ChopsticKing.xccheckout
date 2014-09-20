@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>76ACAB2B-BAAE-40F7-8775-14B9901AD5BC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChopsticKing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>479D578B-9D49-401A-882B-79113D55972B</key>
+		<string>https://github.com/jessjung/chopsticking_app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/ChopsticKing.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>479D578B-9D49-401A-882B-79113D55972B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jessjung/chopsticking_app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>479D578B-9D49-401A-882B-79113D55972B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>479D578B-9D49-401A-882B-79113D55972B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chopsticking_app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
